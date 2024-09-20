@@ -1,0 +1,46 @@
+@media (max-width:992px){
+    nav .active::after{
+        left: 0;
+        width: 100%;
+    }
+    @keyframes nav-line {
+        from{
+            width: 0;
+        }
+        to{
+            width: 100%;
+        }
+    }
+    nav .navbar-brand{
+        padding-left: 0 !important;
+    }
+    nav .nav-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav .navbar-brand{
+        padding-left: 0 !important;
+    }
+    #clients p{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    #counter .row{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    #contact .row{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    #contact form{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #contact button{
+        margin-left: 20px !important;
+    }
+}
